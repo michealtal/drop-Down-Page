@@ -1,0 +1,43 @@
+body{
+    background-color: #f6f6f6;
+}
+.card{
+    width: 450px;
+    margin: 0 auto;
+   
+}
+.upPart{
+    background-color: blue;
+    color: white;
+    padding: 20px 30px;
+}
+.downpart{
+    box-shadow: 5px 5px 3px lightgray;
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+.downpart img{
+    width: 90px;
+     height: 90px;
+    border-radius: 50%;
+
+}
+input{
+    width: 300px;
+    border-radius: 25px;
+    padding: 10px 10px ;
+    font-size: 20px;
+    margin-left: 10px;
+    border-color: transparent;
+   color: white;
+    background-color: rgb(1, 1, 120);
+}
+.profile{
+    display:flex;
+    border-bottom: 1px solid lightgray;
+    padding: 20px 8px;
+}
+.letter{
+    vertical-align:center;
+    margin-left: 20px;
+}
