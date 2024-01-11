@@ -4,23 +4,36 @@ body{
 .card{
     width: 450px;
     margin: 0 auto;
+    border: 1px transparent;
    
 }
 .upPart{
     background-color: blue;
     color: white;
     padding: 20px 30px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
 }
 .downpart{
     box-shadow: 5px 5px 3px lightgray;
-    border: 1px solid lightgray;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .downpart img{
-    width: 90px;
-     height: 90px;
+    width: 65px;
+     height: 60px;
     border-radius: 50%;
 
+}
+.downpart p{
+    margin-top: 5px;
+}
+.downpart h3{
+    margin-top: 4px;
+    margin-bottom: 0px;
 }
 input{
     width: 300px;
@@ -30,7 +43,7 @@ input{
     margin-left: 10px;
     border-color: transparent;
    color: white;
-    background-color: rgb(1, 1, 120);
+    background-color: rgb(41, 41, 193);
 }
 .profile{
     display:flex;

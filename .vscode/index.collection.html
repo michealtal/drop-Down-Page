@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Collection</title>
+    <style type="text/css">
+       body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       }
+       .result{
+        font-size: 20px;
+        font-weight: 69px;
+        color:blueviolet ;
+       }
+
+    </style>
+</head>
+<body>
+    <h1>Index collection in JavaScript</h1>
+    <div class="result"></div>
+    <br>
+    <button class="Btn">Click Me</button>
+    <h3>Click on the above button to create and display the array</h3>
+    <script>
+        let resultElement = document.querySelector(".result");
+        let buttonElement = document.querySelector(".Btn");
+        buttonElement.addEventListener("click", () => {
+            let arr = [1,2,3,4];
+            arr.forEach((item, index) => {
+                resultElement.innerHTML += `arr[${index}] = ${item} <br/>`
+            });
+        });
+    </script>
+</body>
+</html>
+
+
