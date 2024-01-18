@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class form manipulation</title>
+    <link rel="stylesheet" href="class.css">
+</head>
+<body onload= 'document.form1.text1.focus()'>
+    <div class="mail">
+        
+        <h2>Fill the field to sign up </h2>
+        <form name="form1" action="#" >
+            <ul>
+                <li><label for="email">Email</label></li>
+                <li> <input type="text" name="text1" id=""></li>
+                <p class="mail-error" id="mail-error">Invalid email</p>
+                <li>&nbsp;</li>
+                <li><label for="password">Password</label></li>
+                <li> <input type="text" name="text2" id=""></li>
+                <p class="mail-error" id="pass-error">Weak password</p>
+                <li>&nbsp;</li>
+                <li><label for="Phone number">Phone Number</label></li>
+                <li> <input type="number" name="text3" id=""></li>
+                <p class="mail-error" id="num-error">incorrect Number</p>
+                <li>&nbsp;</li>
+                <li class="submit">
+                    <input type="submit" name="submit" value="Submit" onclick="ValidateInputs(document.form1.text1,document. form1.text2,document.form1.text3, event)">
+                </li>
+                <li>&nbsp;</li>
+            </ul>
+        </form>
+    </div>
+
+    <script src="class.js"></script>
+</body>
+</html>
